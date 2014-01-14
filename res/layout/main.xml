@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Plz set the number where you want to forward the calls"
+            />
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etNum" android:hint="Enter the forwarding number" android:gravity="center_horizontal"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Set Call Forwarding"
+            android:id="@+id/bSet"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Stop Call Forwarding"
+            android:id="@+id/bStop" android:layout_gravity="center_horizontal"/>
+    <Button android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Check Call Forwarding"
+            android:id="@+id/bCheck" android:singleLine="false"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Call Forwarding Status : "
+            android:id="@+id/tvStatus"/>
+</LinearLayout>
+

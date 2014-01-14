@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Host"
+                android:id="@+id/tvHost" android:paddingLeft="20dp" android:paddingRight="57dp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etHost" android:layout_weight="1.91" android:hint="Host Name"
+                android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Port"
+                android:id="@+id/tvPort" android:paddingLeft="20dp" android:paddingRight="60dp"
+                />
+        <EditText
+                android:layout_width="275dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:id="@+id/etPort" android:layout_marginRight="49dp" android:paddingLeft="20dp" android:hint="Port Number"
+                android:paddingTop="10dp" android:paddingRight="20dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Service"
+                android:id="@+id/tvService" android:paddingLeft="20dp" android:paddingRight="38dp"/>
+        <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/etService" android:layout_weight="1.91" android:hint="Service Name"
+                android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Userid"
+                android:id="@+id/tvUser" android:paddingLeft="20dp" android:paddingRight="45dp"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/etUser" android:layout_weight="1.91" android:hint="User id"
+                android:paddingLeft="20dp" android:paddingRight="20dp" android:paddingTop="10dp"/>
+    </LinearLayout>
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Password"
+                android:id="@+id/tvHost" android:paddingLeft="20dp" android:paddingRight="20dp"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:id="@+id/etPassword" android:paddingLeft="20dp" android:paddingTop="10dp"
+                android:paddingRight="20dp" android:hint="Password"/>
+    </LinearLayout>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok"
+            android:id="@+id/bOk" android:layout_gravity="center_horizontal"/>
+</LinearLayout>

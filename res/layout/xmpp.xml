@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Receiver"
+            android:id="@+id/tvRecipient" android:paddingLeft="20dp" android:paddingRight="20dp"/>
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:id="@+id/etRecipient" android:paddingLeft="20dp" android:paddingTop="10dp"
+            android:paddingRight="20dp" android:hint="Receiver ID"/>
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Message"
+                android:id="@+id/tvSend" android:paddingLeft="20dp" android:paddingRight="20dp"/>
+        <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/etMessage" android:paddingLeft="20dp" android:paddingTop="10dp"
+                android:paddingRight="20dp" android:hint="Text to send"/>
+    </LinearLayout>
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Send"
+            android:id="@+id/bSend"/>
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Setup"
+            android:id="@+id/bSetup"/>
+    <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="253dp"
+            android:id="@+id/lvMessages"/>
+</LinearLayout>
